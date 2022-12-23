@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class ListVM extends ViewModel {
+public class ListViewModel extends ViewModel {
     MainModel<String> calendarTitle = new MainModel<>();
     MainModel<ArrayList<Object>> mCalendarList = new MainModel<>(new ArrayList<>());
 

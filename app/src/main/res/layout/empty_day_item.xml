@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data class="EmptyDayItemBinding">
+    <data class="EmptyBinding">
         <import type="android.view.View" />
         <variable
             name="model"
-            type="com.example.recordtoday.viewmodel.EmptyVM" />
+            type="com.example.recordtoday.viewmodel.EmptyViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

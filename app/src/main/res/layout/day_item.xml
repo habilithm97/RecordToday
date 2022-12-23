@@ -2,11 +2,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data class="DayItemBinding">
+    <data class="DayBinding">
         <import type="android.view.View" />
         <variable
             name="model"
-            type="com.example.recordtoday.viewmodel.CalendarVM" />
+            type="com.example.recordtoday.viewmodel.CalendarViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
